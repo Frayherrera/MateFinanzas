@@ -35,7 +35,7 @@ class mEstudiante extends Model
             return [];
         }
     }
-
+//
     public function obtenerUsuario($idUsuario){
         try {
             $builder = $this->db->table('usuario');
